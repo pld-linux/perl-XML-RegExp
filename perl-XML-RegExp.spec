@@ -17,6 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	5826b24e0d05714e25c2bb04e1f1c09b
 BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+Obsoletes:	perl-libxml-enno
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -36,8 +37,8 @@ NameChar, EntityRef, CharRef, Reference, Name, NmToken oraz AttValue.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
+
 %{?with_tests:%{__make} test}
 
 %install
