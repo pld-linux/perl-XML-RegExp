@@ -3,8 +3,8 @@
 %bcond_without tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	RegExp
+%define		pdir	XML
+%define		pnam	RegExp
 Summary:	XML::RegExp - regular expressions for XML tokens
 Summary(pl):	XML::RegExp - wyra¿enia regularne dla tokenów XML
 Name:		perl-XML-RegExp
