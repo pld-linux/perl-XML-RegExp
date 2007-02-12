@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	RegExp
 Summary:	XML::RegExp - regular expressions for XML tokens
-Summary(pl):	XML::RegExp - wyra¿enia regularne dla tokenów XML
+Summary(pl.UTF-8):   XML::RegExp - wyraÅ¼enia regularne dla tokenÃ³w XML
 Name:		perl-XML-RegExp
 Version:	0.03
 Release:	2
@@ -26,8 +26,8 @@ This package contains regular expressions for the following XML
 tokens: BaseChar, Ideographic, Letter, Digit, Extender, CombiningChar,
 NameChar, EntityRef, CharRef, Reference, Name, NmToken, and AttValue.
 
-%description -l pl
-Ten pakiet zawiera wyra¿enia regularne dla nastêpuj±cych tokenów XML:
+%description -l pl.UTF-8
+Ten pakiet zawiera wyraÅ¼enia regularne dla nastÄ™pujÄ…cych tokenÃ³w XML:
 BaseChar, Ideographic, Letter, Digit, Extender, CombiningChar,
 NameChar, EntityRef, CharRef, Reference, Name, NmToken oraz AttValue.
 
