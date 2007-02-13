@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	RegExp
 Summary:	XML::RegExp - regular expressions for XML tokens
-Summary(pl.UTF-8):   XML::RegExp - wyrażenia regularne dla tokenów XML
+Summary(pl.UTF-8):	XML::RegExp - wyrażenia regularne dla tokenów XML
 Name:		perl-XML-RegExp
 Version:	0.03
 Release:	2
