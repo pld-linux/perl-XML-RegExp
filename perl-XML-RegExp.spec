@@ -13,8 +13,9 @@ Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5826b24e0d05714e25c2bb04e1f1c09b
+URL:		http://search.cpan.org/dist/XML-RegExp/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 Obsoletes:	perl-libxml-enno
