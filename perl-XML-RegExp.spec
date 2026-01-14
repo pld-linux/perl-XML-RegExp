@@ -8,7 +8,7 @@ Summary:	XML::RegExp - regular expressions for XML tokens
 Summary(pl.UTF-8):	XML::RegExp - wyrażenia regularne dla tokenów XML
 Name:		perl-XML-RegExp
 Version:	0.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
